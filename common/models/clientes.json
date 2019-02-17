@@ -1,0 +1,26 @@
+{
+  "name": "clientes",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nomecliente": {
+      "type": "string",
+      "required": true
+    },
+    "sobrenome": {
+      "type": "string",
+      "required": true
+    },
+    "NIF": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

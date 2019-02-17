@@ -1,0 +1,26 @@
+{
+  "name": "filmes",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nomefilme": {
+      "type": "string",
+      "required": true
+    },
+    "ano": {
+      "type": "number",
+      "required": true
+    },
+    "preco": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
